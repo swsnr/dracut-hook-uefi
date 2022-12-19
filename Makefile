@@ -16,4 +16,4 @@ install:
 .PHONY: check
 check:
 	$(SHFMT) -i 4 -l -d $(SCRIPT_SRC)
-	$(SHELLCHECK) -S style -o all $(SCRIPT_SRC)
+	$(SHELLCHECK) -S style $(SCRIPT_SRC)
